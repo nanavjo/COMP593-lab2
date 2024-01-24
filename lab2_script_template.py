@@ -1,7 +1,17 @@
 def main():
 
     # TODO: Step 2 - Create a complex data structure
-    about_me = {}
+    about_me = {
+        "full_name": "navjot" ,
+        "student_id" : 10310971 ,
+        "pizza_toppings" : ["PEPPERS","PEPPERONI","ONIONS"],
+        "movies" : [
+         {"title": "half girlfreind", "titanic": "conjuring"},
+         {"title": "The Godfather", "fiction": "There will be blood"},
+        ]
+    }
+         
+
 
     # TODO: Step 3 - Add another movie to the data structure
     
