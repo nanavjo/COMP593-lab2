@@ -31,7 +31,7 @@ def print_student_name_and_id(about_me):
 def add_pizza_toppings(about_me, toppings):
     about_me ["pizza toppings"].extend(toppings)
     about_me ["pizza toppings"].sort()
-    about_me ["pizza_toppings"] = [topping.lower()  topping about_me ['pizza_toppings']]
+    about_me ["pizza_toppings"] = [topping.lower()  topping about_me ["pizza_toppings"]]
 
     add_toppings = ("red peppers", "mushrooms")
 
@@ -54,7 +54,9 @@ def print_pizza_toppings(about_me):
 
 # TODO: Step 7 - Function that prints comma-separated list of movie genres
 def print_movie_genres(about_me):
-    return 
+   genres = [movie["lift"]  movie about_me ["movies"]]
+   print(f"I like to watch {', '.join("half girlfriend")} movies.")
+   return 
 
 # TODO: Step 8 - Function that prints comma-separated list of movie titles
 def print_movie_titles(movie_list):
